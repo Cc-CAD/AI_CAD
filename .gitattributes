@@ -1,2 +1,5 @@
-# Auto detect text files and perform LF normalization
+# Keep CAD interchange files byte-for-byte unchanged.
 * text=auto
+*.dxf -text
+*.step -text
+*.stp -text

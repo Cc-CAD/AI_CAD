@@ -1,0 +1,14 @@
+# Local runtimes, caches, credentials and temporary files
+tmp/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+**/opencode.json
+*.db
+*.db-wal
+*.db-shm
+*.log
+*.bak
+*.tmp
