@@ -1,0 +1,16 @@
+{
+  "TASK.md": "1eb0d707bfdc83460fc8252d790258e340066ada8d4c16e484fd54fe7b4e3dd7",
+  "README.md": "751b781ce15615aebd826bf2149e6b71d07c7a1610d80395df2b21d0ee258358",
+  "selftest.py": "c25ec21e9d35feae547ca930236b5d5aaca645f9a05ac2530a06d2abfc126034",
+  "spec.json": "59207c211d2c48dbd10ca69ed4402b3e8b5a4f571e722e6d687844a014e3a64e",
+  "evaluate.py": "f63858b469ce8c720c19ff283bd2dcbb422416e72a322e41ab8c219d329e21c7",
+  "engineering.py": "f2296466de04e345286533b6d9811f5b3c784e94f7ad77d00bbca49216d64d6a",
+  "run_deepseek.py": "90026cf9d84b475361ef93b7c5dbdbfb7caa8eb227dd97afe151db5b47d3199a",
+  "upstream/iou.py": "a53c4d4c33849a2ba2ef9dd4a8f8d3d8ca7518b2e9960d86516491e1e758c64d",
+  "upstream/commit.txt": "69452614c769a755815e03c9eb96f796ff3fa2eee788d6316df6452cf7d3b673",
+  "upstream/LICENSE": "72a70c1c3fdadbc3f4db38d2e167dfdf7b3692b39712a5664418b74192872270",
+  "inputs/bracket_source.pdf": "b8da5973dadd4fd92622dde3335e2ce0bae59f334fd32730fdfa0795be49d524",
+  "inputs/NAAMS_2_HOLE_source.pdf": "b2247204f26e9ed7ba2ec495ea268c69f424cdc47553eabfa4355ea85f279555",
+  "inputs/NAAMS_ASP230_fixture_design.step": "03add72d424f9d6607de337bf1bc90d543b41e6de53980703589fa71b6a2a2cc",
+  "inputs/symmetric_bracket_fixture_design.step": "6f84dcd899ee34bf759f1c4cff8dc2d9df23022046226cc53bbd07e75c7a52c8"
+}

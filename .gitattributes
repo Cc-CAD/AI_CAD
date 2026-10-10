@@ -3,3 +3,6 @@
 *.dxf -text
 *.step -text
 *.stp -text
+
+# Preserve frozen scoring inputs and file-integrity hashes on every platform
+benchmark/** -text

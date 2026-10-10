@@ -31,4 +31,8 @@ CAD 练习与迭代成果，包含二维工程图、三维零件和水刀切割�
 - 加强筋支座：[Autodesk 官方建模练习](https://files.upskill-dev.autodesk.com/public/aex/fusion/Sketching_Part_Modeling_2026/260201_M1-CE_Direct-modeling.pdf)。
 - 其他案例来自此前的公开零件图练习或用户提供的 STEP。
 
-原题资料的权利归各自作者所有。本仓库未附带原题 PDF，公开访问不代表已授予源资料的再许可。
+原题资料的权利归各自作者所有。评分包 inputs 附原评测所用题目 PDF，原资料的权利仍归原作者；私有仓库用于练习复现，不代表获得源资料再许可。
+
+## 程序化评分
+
+[benchmark 评分代码及运行说明](benchmark/README.md) 包含原始 CAD 回归评分和 BenchCAD 风格体素 IoU 评分、冻结参考及自检。

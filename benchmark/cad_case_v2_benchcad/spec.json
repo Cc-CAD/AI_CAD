@@ -1,0 +1,82 @@
+{
+  "version": 2,
+  "length_tolerance_mm": 0.001,
+  "absolute_volume_tolerance_mm3": 0.001,
+  "relative_volume_tolerance": 1e-07,
+  "cases": [
+    {
+      "id": "NAAMS_ASP230",
+      "dxf": "part_drawing/NAAMS_ASP230_corrected.dxf",
+      "part": "part_drawing/NAAMS_ASP230.step",
+      "fixture": "part_drawing/水切模具/NAAMS_ASP230_waterjet_fixture_multibody.step",
+      "holes": [
+        [
+          30,
+          10,
+          10.5
+        ],
+        [
+          30,
+          40,
+          10.5
+        ]
+      ],
+      "required_layers": [
+        "OUTLINE",
+        "CENTER",
+        "HIDDEN",
+        "DIMENSIONS",
+        "NOTES"
+      ],
+      "fixture_solids": 24,
+      "reference_sha256": {
+        "part_drawing/NAAMS_ASP230_corrected.dxf": "12c05eb71238b45ce048e585598211a8d029051cdbc795a11f25cc852fe8344f",
+        "part_drawing/NAAMS_ASP230.step": "ebab118dd42c449ef12da030ae3d375cf97f0cdc11578442005d6c0112167d47",
+        "part_drawing/水切模具/NAAMS_ASP230_waterjet_fixture_multibody.step": "03add72d424f9d6607de337bf1bc90d543b41e6de53980703589fa71b6a2a2cc"
+      }
+    },
+    {
+      "id": "symmetric_bracket",
+      "dxf": "complex_part/symmetric_bracket_2_1M.dxf",
+      "part": "complex_part/symmetric_bracket.step",
+      "fixture": "complex_part/水切模具/symmetric_bracket_waterjet_fixture_multibody.step",
+      "holes": [
+        [
+          -45,
+          15,
+          18
+        ],
+        [
+          -20,
+          40,
+          18
+        ],
+        [
+          20,
+          40,
+          18
+        ],
+        [
+          45,
+          15,
+          18
+        ]
+      ],
+      "required_layers": [
+        "OUTLINE",
+        "CENTER",
+        "DIMENSIONS",
+        "NOTES"
+      ],
+      "fixture_solids": 25,
+      "reference_sha256": {
+        "complex_part/symmetric_bracket_2_1M.dxf": "2e658de4a87ca18c9ca60b00813f5a8f170fbff5779f1fa0c55cc0c3570c787b",
+        "complex_part/symmetric_bracket.step": "40560ab005ae620a99bf154466c0255f769a9418d85732ecb7ebd037c0f793eb",
+        "complex_part/水切模具/symmetric_bracket_waterjet_fixture_multibody.step": "6f84dcd899ee34bf759f1c4cff8dc2d9df23022046226cc53bbd07e75c7a52c8"
+      }
+    }
+  ],
+  "voxel_resolution": 64,
+  "execution_timeout_seconds": 30,
+  "headline": "mean official normalized voxel IoU over two parts; failures score zero"
+}

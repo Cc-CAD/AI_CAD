@@ -12,3 +12,10 @@ __pycache__/
 *.log
 *.bak
 *.tmp
+
+# Generated benchmark runs and mutation samples
+benchmark/runs/
+benchmark/results/
+benchmark/**/reports/
+benchmark/**/samples/
+benchmark/**/selftest_artifacts/
